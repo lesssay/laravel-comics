@@ -1,0 +1,32 @@
+main {
+    background-color: #000000;
+    color: #fcfcfc;
+    padding: 30px 0;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      .card {
+        flex-basis: calc(100% / 6);
+        margin-bottom: 10px;
+        text-align: center;
+  
+        img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          object-position: top;
+          margin-bottom: 10px;
+        }
+  
+        a {
+          color: #fcfcfc;
+          font-size: 0.3rem;
+        }
+      }
+    }
+  }
+  

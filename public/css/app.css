@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header nav {
+  height: 100px;
+  background-image: linear-gradient(#0C7CEC 10px, #fcfcfc 10px);
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+header nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  width: 60px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  font-weight: bold;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #000000;
+  padding: 5px;
+}
+header nav ul li a:hover {
+  color: #0C7CEC;
+}
+header nav ul li a.active {
+  border-bottom: 3px solid #0C7CEC;
+}
+header .jumbotron {
+  height: 250px;
+  background-image: url(../images/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-color: #000000;
+  color: #fcfcfc;
+  padding: 30px 0;
+}
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .container .card {
+  flex-basis: 16.6666666667%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .container .card img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 10px;
+}
+main .container .card a {
+  color: #fcfcfc;
+  font-size: 0.3rem;
+}
+
+footer {
+  height: 520px;
+}
+footer .top {
+  height: 120px;
+  background-color: #0C7CEC;
+  position: relative;
+}
+footer .top .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .top .card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fcfcfc;
+  font-size: 0.8rem;
+}
+footer .top .card img {
+  width: 30px;
+  margin-right: 10px;
+}
+footer .middle {
+  height: 300px;
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+footer .middle .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .middle .container nav {
+  color: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .middle .container nav .col {
+  margin: 10px 10px;
+}
+footer .middle .container nav p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+footer .middle .container nav a {
+  font-size: 0.8rem;
+  color: #808080;
+}
+footer .middle .container .big-logo {
+  width: 450px;
+}
+footer .bottom {
+  height: 100px;
+  background-image: linear-gradient(#303030 90px, #000000 90px);
+  position: relative;
+}
+footer .bottom nav {
+  padding-bottom: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bottom nav button {
+  background-color: transparent;
+  border: 2px solid #0C7CEC;
+  color: #fcfcfc;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+footer .bottom nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .bottom nav ul li {
+  margin: 0 10px;
+}
+footer .bottom nav ul li .follow {
+  font-weight: bold;
+  color: #0C7CEC;
+}
