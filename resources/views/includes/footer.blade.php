@@ -1,18 +1,5 @@
-<footer>
+<footer>    
     <div class="top">
-        <div class="container">
-            @foreach($footer_links as $footer_link)
-            <div class="card">
-                <figure>
-                    <a href=""><img src="{{ asset($footer_link['url']) }}" alt="{{ $footer_link['text'] }}"></a>
-                </figure>
-                <figcaption>{{ $footer_link['text']}}</figcaption>
-            </div>
-            @endforeach
-        </div>
-    </div>    
-    
-    <div class="middle">
             <div class="container">
                         <nav>
                             <div class="col dc-comics">

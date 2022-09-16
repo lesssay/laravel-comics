@@ -1,0 +1,23 @@
+.navbar {
+    height: 120px;
+    background-color: #0C7CEC;
+    position: relative;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fcfcfc;
+        font-size: 0.8rem;
+
+        img {
+            width: 30px;
+            margin-right: 10px;
+        }
+    }
+}

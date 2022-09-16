@@ -59,10 +59,11 @@ header nav ul li a.active {
   border-bottom: 3px solid #0C7CEC;
 }
 header .jumbotron {
-  height: 250px;
+  height: 300px;
   background-image: url(../images/jumbotron.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 main {
@@ -78,7 +79,6 @@ main .container {
 }
 main .container .card {
   flex-basis: 16.6666666667%;
-  margin-bottom: 10px;
   text-align: center;
 }
 main .container .card img {
@@ -95,59 +95,60 @@ main .container .card a {
   font-size: 0.3rem;
 }
 
-footer {
-  height: 520px;
-}
-footer .top {
+.navbar {
   height: 120px;
   background-color: #0C7CEC;
   position: relative;
 }
-footer .top .container {
+.navbar .container {
   display: flex;
   justify-content: space-between;
 }
-footer .top .card {
+.navbar .card {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   color: #fcfcfc;
   font-size: 0.8rem;
 }
-footer .top .card img {
+.navbar .card img {
   width: 30px;
   margin-right: 10px;
 }
-footer .middle {
+
+footer {
+  height: 300px;
+}
+footer .top {
   height: 300px;
   background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
-footer .middle .container {
+footer .top .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .middle .container nav {
+footer .top .container nav {
   color: #fcfcfc;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-footer .middle .container nav .col {
+footer .top .container nav .col {
   margin: 10px 10px;
 }
-footer .middle .container nav p {
+footer .top .container nav p {
   font-weight: bold;
   margin-bottom: 5px;
 }
-footer .middle .container nav a {
+footer .top .container nav a {
   font-size: 0.8rem;
   color: #808080;
 }
-footer .middle .container .big-logo {
+footer .top .container .big-logo {
   width: 450px;
 }
 footer .bottom {
