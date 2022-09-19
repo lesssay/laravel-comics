@@ -176,6 +176,8 @@ Route::get('/comics', function () {
   return view('comics.index', compact('header_links', 'footer_links', 'comics_list'));
 })->name('comics.index');
 
+
+
 Route::get('/comics/{id}', function ($id) {
 
   $header_links = [

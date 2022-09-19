@@ -30,33 +30,40 @@ a {
 header nav {
   height: 100px;
   background-image: linear-gradient(#0C7CEC 10px, #fcfcfc 10px);
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding-top: 40px;
 }
 header nav .container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header nav .logo {
+header nav .container .logo {
   width: 60px;
+  padding-bottom: 30px;
 }
-header nav ul {
+header nav .container .links {
+  height: 100%;
+}
+header nav .container .links ul {
+  height: 100%;
   display: flex;
 }
-header nav ul li {
+header nav .container .links ul li {
+  height: 100%;
   font-weight: bold;
   margin: 0 10px;
 }
-header nav ul li a {
+header nav .container .links ul li.active {
+  border-bottom: 5px solid #0C7CEC;
+}
+header nav .container .links ul li a {
+  vertical-align: middle;
   color: #000000;
   padding: 5px;
 }
-header nav ul li a:hover {
+header nav .container .links ul li a:hover {
   color: #0C7CEC;
-}
-header nav ul li a.active {
-  border-bottom: 3px solid #0C7CEC;
 }
 header .jumbotron {
   height: 300px;
